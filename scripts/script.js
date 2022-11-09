@@ -17,11 +17,30 @@
 
 // // alert("Hello" + input);
 // alert(`Hello ${input}`);
-let fruits = ["Apple","Banana"];
-fruits.push("Orange")
-console.log(fruits)
+// let fruits = ["Apple","Banana"];
+// fruits.push("Orange")
+// console.log(fruits)
 
-fruits.unshift("Mango");
-console.log(fruits)
-fruits.shift("Mango")
-console.log(fruits)
+// fruits.unshift("Mango");
+// console.log(fruits)
+// fruits.shift("Mango")
+// console.log(fruits)
+// let sequence = [1,1,2,3,5,8,13]
+// for (let i = 0; i < Array.length; i = i + 1) {
+
+
+// }
+const person = {
+    name:["Bob", "Smith"],
+    age:32,
+    gender:"male",
+    hobbies :["music", "skiing"]
+}
+console.log(person)
+// console.log(
+//     `My name is ${person.name[0]} ${person.name[1]}. I am interested in ${person.hobbies[0]} and ${person.hobbies[1]}. `);
+for (let key in person)
+{
+    console.log(key);
+    console.log(person[key])
+}
